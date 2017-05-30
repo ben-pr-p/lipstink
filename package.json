@@ -1,0 +1,23 @@
+{
+  "name": "lipstink",
+  "version": "1.0.0",
+  "description": "Speech to timestamped phonemes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben-pr-p/lipstink.git"
+  },
+  "author": "Ben Packer",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ben-pr-p/lipstink/issues"
+  },
+  "homepage": "https://github.com/ben-pr-p/lipstink#readme",
+  "dependencies": {
+    "cmu-pronouncing-dictionary": "^1.0.3",
+    "watson-developer-cloud": "^2.32.1"
+  }
+}
